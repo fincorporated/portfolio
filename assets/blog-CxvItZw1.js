@@ -1,0 +1,1 @@
+import{j as e,H as r,c as t,a as o}from"./header-B6vgxdTb.js";function s(){return e.jsxs(e.Fragment,{children:[e.jsx(r,{}),e.jsx("h2",{children:"Blog"})]})}t.createRoot(document.getElementById("root")).render(e.jsx(o.StrictMode,{children:e.jsx(s,{})}));
