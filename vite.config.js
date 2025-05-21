@@ -5,6 +5,7 @@ import { dirname, resolve } from 'node:path'
 // https://vite.dev/config/
 export default defineConfig({
   plugins: [react()],
+  base: '/portfolio/',
   build: {
     rollupOptions: {
       input: {
