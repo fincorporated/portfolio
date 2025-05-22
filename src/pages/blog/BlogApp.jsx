@@ -1,13 +1,16 @@
-import Header from "../header/header"
-import './BlogApp.css'
+import Header from "../header/header";
+import './BlogApp.css';
+import BlogEntries from "./entries";
+import AltHeader from "../header/altheader"
 
 export default function Blog() {
     return (
         <>    
-            <Header />
-            <h2>
-                Blog
-            </h2>
+            <div className="blogHeaderContainer">
+                <AltHeader />
+            </div>
+            
+            <BlogEntries />
         </>
     )
 }

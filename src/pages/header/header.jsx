@@ -1,11 +1,12 @@
 import NavBar from "./navBar";
 import './header.css'
+import Logo from "../../logo";
 
 export default function Header() {
     return (
         <>
-            <div className="header">
-                <img src="./src/fin.png"></img>
+            <div className="headerLogo">
+                <Logo />
             </div>
             <div className="header">
                 <h2 >Finley McArdle | </h2>

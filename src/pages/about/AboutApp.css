@@ -1,7 +1,7 @@
 #root {
-    max-width: 1280px;
+    
     margin: 0 auto;
-    padding: 2rem;
+    padding: 0.5rem;
     text-align: center;
 
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
@@ -15,6 +15,7 @@
 }
 
 .aboutAppContainer {
+    
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
     row-gap: 2em;
@@ -31,11 +32,11 @@ h3 {
   
 }  
 
-  .card {
-    border-style: solid;
-    color: #1e2019;
-    background-color: #F5F5F5;
-  }
+.card {
+  border-style: solid;
+  color: #1e2019;  
+  background-color: #F5F5F5;    
+}  
   
   #summary {
     grid-column: 1 / span 2;

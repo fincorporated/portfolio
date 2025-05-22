@@ -1,16 +1,24 @@
 import NavBar from "./navBar";
 import './header.css'
+import Logo from "../../logo";
 
 export default function AltHeader() {
     return (
-        <div className="headercontainer">
-            <div className="titleCard">
-                <h2 className="altheader">Finley McArdle | </h2>
-                <h2 className="altheader">Aspiring Software Developer</h2>
-            </div>
-            <div className="navBar">
+        <>
+            <div className="altheaderContainer">
+                <div className="brand">
+                    <div className="logo">
+                        <Logo />
+                    </div>
+                    <div className="titleCard">
+                        <h2 className="altheader">Finley McArdle | </h2>
+                        <h2 className="altheader">Aspiring Software Developer</h2>
+                    </div>
+                </div>
+                
                 <NavBar />
             </div>
-        </div>
+            
+        </>
     )
 }

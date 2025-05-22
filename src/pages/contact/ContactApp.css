@@ -4,3 +4,38 @@
     padding: 2rem;
     text-align: center;
 }
+
+#contactHeaderContainer {
+    margin-bottom: 5em;
+}
+
+#contactContainer {
+    display: flex;
+    flex-direction: column;
+    margin-top: 3em;
+    border-style: solid;
+    color: #1e2019;  
+    background-color: #F5F5F5;
+    width: 75%;
+    height: 15em;
+    margin: 0 auto;
+    box-shadow: 1em 1em #db3a34;
+    align-content: center;
+    padding-top: 3em;
+}
+
+#contactContainer a {
+    text-decoration: none;
+    padding: 0.5em;
+    border-color: #F3A712;
+    color: black;
+    border-radius: 10%;
+    border-style: solid;
+    width: 5em;
+    margin: 0 auto;
+}
+
+#contactContainer a:hover, a:active {
+    background-color: #F3A712;
+    color: #F5F5F5;
+}

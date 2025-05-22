@@ -7,9 +7,6 @@ h2 {
      margin-bottom: 3em;
 }
 
-.altheader {
-     margin-bottom: 1em;
-}
 
 img {
      max-width: 25%;
@@ -17,9 +14,10 @@ img {
 
 h2.altheader {
      display: inline;
+     font-size: 1em;
 }
 
-.headercontainer {
+.altheaderContainer {
      display: flex;
      flex-direction: row;
      justify-content: space-between;
@@ -30,4 +28,15 @@ h2.altheader {
      padding: 1em;
      border-style: solid;
      box-shadow: 4px 4px #177E89;
+}
+
+.logo img {
+     max-width: 50px;
+     padding-right: 2em;
+}
+
+.brand {
+     display: flex;
+     flex-direction: row;
+     align-items: center;
 }

@@ -1,8 +1,3 @@
-li.navBar {
-    display: inline;
-    padding-right: 25px;
-}
-
 .navBar a:link, a:visited {
     text-decoration: none;
     padding: 0.5em;
@@ -16,4 +11,14 @@ li.navBar {
     background-color: #F3A712;
     color: #F5F5F5;
     
+}
+
+.navBarContainer {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+p.navBar {
+    margin: 0.5em;
 }
