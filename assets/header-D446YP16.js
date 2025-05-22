@@ -1,1 +1,0 @@
-import{j as e,N as r}from"./header-D8RB5YNo.js";function i(){return e.jsxs(e.Fragment,{children:[e.jsx("div",{className:"header",children:e.jsx("img",{src:"src/fin.png"})}),e.jsxs("div",{className:"header",children:[e.jsx("h2",{children:"Finley McArdle | "}),e.jsx("h2",{children:"Aspiring Software Developer"})]}),e.jsx(r,{})]})}export{i as H};

@@ -1,1 +1,0 @@
-import{j as t,c as e,a as r}from"./header-D8RB5YNo.js";import{H as o}from"./header-D446YP16.js";function n(){return t.jsxs(t.Fragment,{children:[t.jsx(o,{}),t.jsx("h2",{children:"Contact Me"}),t.jsx("p",{children:"finmcardle@gmail.com"})]})}e.createRoot(document.getElementById("root")).render(t.jsx(r.StrictMode,{children:t.jsx(n,{})}));

@@ -1,1 +1,0 @@
-import{j as r,c as e,a as t}from"./header-D8RB5YNo.js";import{H as o}from"./header-D446YP16.js";function s(){return r.jsxs(r.Fragment,{children:[r.jsx(o,{}),r.jsx("h2",{children:"Blog"})]})}e.createRoot(document.getElementById("root")).render(r.jsx(t.StrictMode,{children:r.jsx(s,{})}));
