@@ -5,7 +5,7 @@ export default function Header() {
     return (
         <>
             <div className="header">
-                <img src="src/fin.png"></img>
+                <img src="./src/fin.png"></img>
             </div>
             <div className="header">
                 <h2 >Finley McArdle | </h2>
