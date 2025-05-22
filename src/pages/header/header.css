@@ -1,3 +1,33 @@
-h1.header {
-     font-size: 2em;
+h2 {
+     font-size: 1.5em;
+     display: inline;
+}
+
+.header {
+     margin-bottom: 3em;
+}
+
+.altheader {
+     margin-bottom: 1em;
+}
+
+img {
+     max-width: 25%;
+}
+
+h2.altheader {
+     display: inline;
+}
+
+.headercontainer {
+     display: flex;
+     flex-direction: row;
+     justify-content: space-between;
+     align-items: center;
+}
+
+.titleCard {
+     padding: 1em;
+     border-style: solid;
+     box-shadow: 4px 4px #177E89;
 }

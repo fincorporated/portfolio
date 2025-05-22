@@ -4,8 +4,13 @@ import './header.css'
 export default function Header() {
     return (
         <>
-            <h1 className="header">Finley McArdle</h1>
-            <h2 className="header">Aspiring Software Developer</h2>
+            <div className="header">
+                <img src="src/fin.png"></img>
+            </div>
+            <div className="header">
+                <h2 >Finley McArdle | </h2>
+                <h2>Aspiring Software Developer</h2>
+            </div>
             <NavBar />
         </>
     )

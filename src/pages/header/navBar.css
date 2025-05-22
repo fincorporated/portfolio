@@ -1,4 +1,19 @@
-li {
+li.navBar {
     display: inline;
     padding-right: 25px;
+}
+
+.navBar a:link, a:visited {
+    text-decoration: none;
+    padding: 0.5em;
+    border-color: #F3A712;
+    color: black;
+    border-radius: 10%;
+    border-style: solid;
+}
+
+.navBar a:hover, a:active {
+    background-color: #F3A712;
+    color: #F5F5F5;
+    
 }

@@ -1,5 +1,6 @@
 import { projectsData } from './projectsData.js';
-import Header from '../header/header.jsx';
+import AltHeader from '../header/altheader.jsx';
+import './projects.css'
 
 export default function ProjectsApp() {
     const listItems = projectsData.map(project => 
@@ -18,7 +19,7 @@ export default function ProjectsApp() {
     );
     return (
         <>
-            <Header />
+            <AltHeader />
             <h2>Projects</h2>
                 {listItems}
         </>

@@ -3,7 +3,7 @@ import './navBar.css';
 
 export default function NavBar() {
     const items = pages.map(page => 
-        <li key={page.id}> <a href={page.link}>{page.title}</a></li>
+        <li key={page.id} className='navBar'> <a href={page.link}>{page.title}</a></li>
     )
-    return <ul> {items} </ul>
+    return <ul className='navBar'> {items} </ul>
 }
