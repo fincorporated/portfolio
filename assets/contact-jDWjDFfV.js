@@ -1,1 +1,0 @@
-import{j as e,H as t,c as r,a as n}from"./header-B6vgxdTb.js";function c(){return e.jsxs(e.Fragment,{children:[e.jsx(t,{}),e.jsx("h2",{children:"Contact Me"}),e.jsx("p",{children:"finmcardle@gmail.com"})]})}r.createRoot(document.getElementById("root")).render(e.jsx(n.StrictMode,{children:e.jsx(c,{})}));

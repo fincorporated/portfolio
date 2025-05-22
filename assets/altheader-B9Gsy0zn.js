@@ -1,0 +1,1 @@
+import{j as e,N as a}from"./header-D8RB5YNo.js";function r(){return e.jsxs("div",{className:"headercontainer",children:[e.jsxs("div",{className:"titleCard",children:[e.jsx("h2",{className:"altheader",children:"Finley McArdle | "}),e.jsx("h2",{className:"altheader",children:"Aspiring Software Developer"})]}),e.jsx("div",{className:"navBar",children:e.jsx(a,{})})]})}export{r as A};
