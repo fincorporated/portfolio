@@ -19,7 +19,7 @@ export const projectsData = [{
     title: 'Springboard to Design Website',
     image: '',
     color: '#7fb069',
-    link: '',
+    link: 'https://fincorporated.github.io/springboard/',
     description: "Springboard to Design is a summer arts program for high school students to explore the design elements of theatre. I worked with the program's program manager to build a website that meets the current needs of the program; sharing information and resources, a call for donations, and a method of contacting the team.",
     futureDevelopments: ['Custom application form that accepts text-based responses as well as media uploads', 'Payment collection for donations', 'Contact form with inquiry categories (student, theatre professional, theatre educator, donor, etc.).'],
 }, 
