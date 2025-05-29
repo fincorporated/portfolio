@@ -20,11 +20,11 @@ export default function Gallery() {
     }} >
        <h3><a href={project.link} target="blank">{project.title}</a></h3> 
         <p>{project.description}</p>
-        <h4>Future Developments:</h4>
+        <h4>Planned Enhancements:</h4>
         <ul>
-            <li> {project.futureDevelopments[0]} </li>
-            <li> {project.futureDevelopments[1]} </li>
-            <li> {project.futureDevelopments[2]} </li>
+            {project.futureDevelopments.map(development =>
+                <li>{development}</li>
+            )}
         </ul>
         <button onClick={handleClick}>Next</button>
     </div>

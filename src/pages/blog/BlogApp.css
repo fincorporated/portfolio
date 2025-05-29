@@ -16,6 +16,22 @@
     margin-bottom: 2em;
 }
 
+.blogEntryContainer:nth-child(4n+2) {
+    box-shadow: 1em 1em #db3a34;
+}
+
+.blogEntryContainer:nth-child(4n+3) {
+    box-shadow: 1em 1em #177e89;
+}
+
+.blogEntryContainer:nth-child(4n+3) {
+    box-shadow: 1em 1em #f3a712;
+}
+
+.blogEntryContainer:nth-child(4n+3) {
+    box-shadow: 1em 1em #7fb069;
+}
+
 .blogHeaderContainer {
     margin-bottom: 5em;
 }
