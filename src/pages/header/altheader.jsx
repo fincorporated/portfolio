@@ -1,6 +1,7 @@
 import NavBar from "./navBar";
 import './header.css'
 import Logo from "../../logo";
+import AltNavBar from "./altNavBar";
 
 export default function AltHeader() {
     return (
@@ -16,7 +17,7 @@ export default function AltHeader() {
                     </div>
                 </div>
                 
-                <NavBar />
+                <AltNavBar />
             </div>
             
         </>

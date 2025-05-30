@@ -1,24 +1,62 @@
-.navBar a:link, a:visited {
+p.navBar {
+    margin: 0.5em;
+}
+
+p.altNavBar {
+    margin: 0.5em;
+}
+
+.navBar a:link, a:visited {     
     text-decoration: none;
     padding: 0.5em;
     border-color: #F3A712;
     color: black;
-    border-radius: 10%;
+    border-radius: 10px;
     border-style: solid;
 }
 
 .navBar a:hover, a:active {
     background-color: #F3A712;
     color: #F5F5F5;
-    
 }
 
-.navBarContainer {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-evenly;
+.altNavBar a:link, a:visited {     
+    text-decoration: none;
+    padding: 0.5em;
+    border-color: #F3A712;
+    color: black;
+    border-radius: 10px;
+    border-style: solid;
 }
 
-p.navBar {
-    margin: 0.5em;
+.altNavBar a:hover, a:active {
+    background-color: #F3A712;
+    color: #F5F5F5;
+}
+
+@media (min-width: 768px) {    
+    .navBarContainer {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+    }
+    .altNavBarContainer {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+    }
+}
+
+@media (max-width: 768px) {
+    .navBarContainer {
+        display: flex;
+        flex-direction: column;
+        row-gap: 15px;
+    }   
+    .altNavBarContainer {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+        font-size: x-small;
+    }
 }

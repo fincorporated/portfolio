@@ -9,7 +9,7 @@ export default function Header() {
                 <Logo />
             </div>
             <div className="header">
-                <h2 >Finley McArdle | </h2>
+                <h2 >Finley McArdle <span>|</span> </h2>
                 <h2>Aspiring Software Developer</h2>
             </div>
             <NavBar />
