@@ -1,6 +1,6 @@
 
 
-@media (min-width: 768px) {
+@media (min-width: 1024px) {
      h2 {
        display: inline;
      }
@@ -15,7 +15,7 @@
      }
    }
    
-   @media (max-width: 768px) {
+   @media (max-width: 1024px) {
      h2 {
        display: block;
      }

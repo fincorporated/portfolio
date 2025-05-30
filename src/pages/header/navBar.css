@@ -2,8 +2,16 @@ p.navBar {
     margin: 0.5em;
 }
 
-p.altNavBar {
-    margin: 0.5em;
+@media (min-width: 1024px) {
+    p.altNavBar {
+        margin: 1em;
+    } 
+}
+
+@media (max-width: 1024px) {
+    p.altNavBar {
+        margin: 0;
+    } 
 }
 
 .navBar a:link, a:visited {     
@@ -34,7 +42,7 @@ p.altNavBar {
     color: #F5F5F5;
 }
 
-@media (min-width: 768px) {    
+@media (min-width: 1024px) {    
     .navBarContainer {
         display: flex;
         flex-direction: row;
@@ -47,7 +55,7 @@ p.altNavBar {
     }
 }
 
-@media (max-width: 768px) {
+@media (max-width: 1024px) {
     .navBarContainer {
         display: flex;
         flex-direction: column;
@@ -58,5 +66,7 @@ p.altNavBar {
         flex-direction: row;
         justify-content: space-evenly;
         font-size: x-small;
+        width: 100%;
+        margin-top: 1em;
     }
 }

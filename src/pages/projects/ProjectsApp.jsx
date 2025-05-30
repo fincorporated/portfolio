@@ -5,12 +5,12 @@ import Gallery from './gallery.jsx';
 
 export default function ProjectsApp() {
     return (
-        <>
+        <div className='projectsContainer'>
             <AltHeader />
             <div className='galleryContainer'>
                 <Gallery /> 
             </div>
             
-        </>
+        </div>
     );
 }

@@ -16,7 +16,7 @@ export default function Gallery() {
     let project = projectsData[index]
     return (     
     <div className="card" id="gallery" style={{
-        boxShadow: `2em 2em ${project.color}`
+        boxShadow: `1em 1em ${project.color}`
     }} >
        <h3><a href={project.link} target="blank">{project.title}</a></h3> 
         <p>{project.description}</p>
