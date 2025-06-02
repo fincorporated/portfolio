@@ -21,7 +21,7 @@ export const projectsData = [{
     color: '#7fb069',
     link: 'https://fincorporated.github.io/springboard/',
     description: "This informational site supports Springboard to Design, a summer arts program introducing high school students to theatrical design. I collaborated directly with the program manager to build a custom website using HTML, CSS, and JavaScript that fulfills key needs: sharing program details and resources, encouraging donations, and providing a way for visitors to contact the team.",
-    futureDevelopments: ['Custom application form with support for text responses and media uploads', 'Integrated payment system for collecting donations', 'Enhanced contact form with categorized inquiry options (e.g., student, educator, donor)', 'Continued UI improvements with input from artistic team'],
+    futureDevelopments: ['Rebuild with React for improved UX','Custom application form with support for text responses and media uploads', 'Integrated payment system for collecting donations', 'Enhanced contact form with categorized inquiry options (e.g., student, educator, donor)', 'Continued UI improvements with input from artistic team'],
 }, {
     index: 3,
     title: 'Personal Portfolio Website',

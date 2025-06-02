@@ -13,7 +13,6 @@ export default function Contact() {
             <div className="card" id="contactContainer">
                 <h2>Contact</h2>
                 <a href="mailto:finmcardle@gmail.com" >Email Me</a>
-                <p>(Contact form coming soon)</p>
             </div>
             
         </>
