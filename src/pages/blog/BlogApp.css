@@ -33,11 +33,11 @@
     box-shadow: 1em 1em #177e89;
 }
 
-.blogEntryContainer:nth-child(4n+3) {
+.blogEntryContainer:nth-child(4n+4) {
     box-shadow: 1em 1em #f3a712;
 }
 
-.blogEntryContainer:nth-child(4n+3) {
+.blogEntryContainer:nth-child(4n+5) {
     box-shadow: 1em 1em #7fb069;
 }
 
