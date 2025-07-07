@@ -16,12 +16,12 @@ export const projectsData = [{
     futureDevelopments: ['Geolocation in the browser', 'Custom API for integrating with Home Assistant (GET answer and/or POST weather)', 'Memory functionality through backend database, allowing users to save favorite locations and give feedback on outfit suggestions that will influence future suggestions, ie. if a user gives positive feedback on a recommendation made for a day that is 60°, sunny, with 5mph wind, then the next day with matching weather conditions will provide the same outfit recommendation.', 'More detailed outfit recommendations beyond outerwear, including the ability to save outfit preferences (such as sweaters vs. sweatshirts, types of jackets to recommend, etc.) and to exclude certain clothing items from recommendations.'],
 }, {
     index: 2,
-    title: 'Springboard to Design Website',
+    title: 'Beach Day',
     image: '',
     color: '#7fb069',
-    link: 'https://fincorporated.github.io/springboard/',
-    description: "This informational site supports Springboard to Design, a summer arts program introducing high school students to theatrical design. I collaborated directly with the program manager to build a custom website using HTML, CSS, and JavaScript that fulfills key needs: sharing program details and resources, encouraging donations, and providing a way for visitors to contact the team.",
-    futureDevelopments: ['Rebuild with React for improved UX','Custom application form with support for text responses and media uploads', 'Integrated payment system for collecting donations', 'Enhanced contact form with categorized inquiry options (e.g., student, educator, donor)', 'Continued UI improvements with input from artistic team'],
+    link: 'https://fincorporated.github.io/beachDayV2/',
+    description: "A single-page web application that determines if current weather conditions are suitable for a beach day based on temperature, sun, and tide data.",
+    futureDevelopments: ['Additional forecast days','Ability to answer more specific beach-activity questions, such as viability for tanning, swimming, beachcobing, and kite-flying', 'User profiles to allow preference saving.'],
 }, {
     index: 3,
     title: 'Personal Portfolio Website',
@@ -44,4 +44,14 @@ export const projectsData = [{
 //     title: 'Customizable Habit Tracker',
 //     link: '',
 //     description: "Another request from my mother (what can I say? The woman raised me, I feel I owe her a couple basic websites). Though there are no shortage of habit tracking apps on the market, the most easily discovered are too busy with additional features for her, or they fail to provide the level of customization she needs to track her physical therapy exercises. The purpose of this tracker is to give users full control over the target frequency of a habit as well as additional trackable-variables. For example, my mom is looking to track reps of her exercises, which may be useful for many exercises, but if one wishes to track duration of their walks, or intensity of their workout on a scale of 1-10, or the title of the book they read, a custom variable allows them to do that.",
+// }
+
+// {
+//     index: ,
+//     title: 'Springboard to Design Website',
+//     image: '',
+//     color: '#7fb069',
+//     link: 'https://fincorporated.github.io/springboard/',
+//     description: "This informational site supports Springboard to Design, a summer arts program introducing high school students to theatrical design. I collaborated directly with the program manager to build a custom website using HTML, CSS, and JavaScript that fulfills key needs: sharing program details and resources, encouraging donations, and providing a way for visitors to contact the team.",
+//     futureDevelopments: ['Rebuild with React for improved UX','Custom application form with support for text responses and media uploads', 'Integrated payment system for collecting donations', 'Enhanced contact form with categorized inquiry options (e.g., student, educator, donor)', 'Continued UI improvements with input from artistic team'],
 // }
