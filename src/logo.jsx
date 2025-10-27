@@ -1,4 +1,4 @@
-import fin from '/Users/finleymcardle/devprojects/react/portfolio/src/assets/fin.png'
+import fin from '/src/assets/fin.png'
 
 export default function Logo() {
     return (

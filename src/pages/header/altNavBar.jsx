@@ -1,4 +1,4 @@
-import {pages} from '/Users/finleymcardle/devprojects/react/portfolio/src/data.js';
+import {pages} from '/src/data.js';
 import './navBar.css';
 
 export default function AltNavBar() {
